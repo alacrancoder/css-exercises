@@ -23,3 +23,24 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+/* Added by me, Jorge Serna */
+
+/* * {
+  border: solid 1px black;
+} */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+}
+

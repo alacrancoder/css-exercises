@@ -46,3 +46,24 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* Added by me, Jorge Serna */
+
+.header, .left-side, .right-side, .links {
+  display: flex;
+  align-items: center;
+}
+
+.left-side, .right-side, .links {
+  gap: 16px;
+}
+
+.header {
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.links {
+  padding: 0;
+  margin: 0;
+}
